@@ -44,6 +44,7 @@ public class IngredientTest {
             e.printStackTrace();
         }
         assertFalse(weightChanged);//Se verifica que el boolean no haya cambiado a true como pasa dentro del try
+        assertEquals(245, setupStage1Ingredient.getWeight());
     }
 
     @Test
@@ -73,6 +74,7 @@ public class IngredientTest {
             e.printStackTrace();
         }
         assertFalse(weightChanged);//Se verifica que el boolean no haya cambiado a true como pasa dentro del try
+        assertEquals(245, setupStage1Ingredient.getWeight());
     }
 
 
